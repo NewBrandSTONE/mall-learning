@@ -23,19 +23,6 @@ public class PmsBrand {
 
     private String brandStory;
 
-    public PmsBrand(Long id, String name, String firstLetter, Integer sort, Integer factoryStatus, Integer showStatus, Integer productCount, Integer productCommentCount, String logo, String bigPic) {
-        this.id = id;
-        this.name = name;
-        this.firstLetter = firstLetter;
-        this.sort = sort;
-        this.factoryStatus = factoryStatus;
-        this.showStatus = showStatus;
-        this.productCount = productCount;
-        this.productCommentCount = productCommentCount;
-        this.logo = logo;
-        this.bigPic = bigPic;
-    }
-
     public PmsBrand(Long id, String name, String firstLetter, Integer sort, Integer factoryStatus, Integer showStatus, Integer productCount, Integer productCommentCount, String logo, String bigPic, String brandStory) {
         this.id = id;
         this.name = name;
